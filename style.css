@@ -1,4 +1,194 @@
-html {
-  height: 100%;
-  width: 100%;
+header{
+  text-align: center;
+  
+  background-color: #f0f0f0;
+}
+
+header img{
+  width: 100%;  
+  height: 200px;
+}
+
+.container{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 20px;
+ 
+}
+
+.container div{
+  display: flex;
+   margin-top: 20px;
+}
+
+.imagem{
+  
+  width: 300px;
+  height: 300px;
+border-radius: 50%;
+  object-fit: cover;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  margin: 20px;
+}
+
+
+p{
+  font-size: 24px;
+  margin: 20px;
+  margin-left: 60px;
+  margin-right: 60px;
+  margin-top: 100px;
+  
+}
+
+
+body {
+   font-family: 'Playfair Display', serif;
+  margin: 0;
+  padding: 0;
+  background-color: #e9967a;
+}
+
+footer {
+  background-color: #f08080;
+  color: #00000;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  font-size: 24px;
+}
+
+.contato, .social-media {
+  margin: 10px;
+  width: 200px;
+}
+
+h3 {
+  margin-bottom: 10px;
+  font-size: 1.2em;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+ul li {
+  margin: 5px 0;
+}
+
+ul li a {
+  color: #000000;
+  text-decoration: none;
+}
+
+ul li a:hover {
+  text-decoration: underline;
+}
+
+@media screen and (max-width: 600px) {
+  .footer-container {
+      flex-direction: column;
+      align-items: center;
+  }
+
+  .contato, .social-media {
+      width: 100%;
+      text-align: center;
+    margin-top: 40px;
+  }
+}
+
+button {
+  background-color: #f08080;
+  padding: 20px 40px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 18px;
+  margin-top: 10px;
+  margin-right: 60px;
+   font-family: 'Playfair Display', serif;
+}
+
+.botoes{
+  background-color:#e9967a ;
+}
+
+h2{
+  margin-top: 60px;
+}
+@media screen and (max-width: 768px) {
+  .container div {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .imagem {
+    width: 200px;  /* Ajustando o tamanho da imagem em telas menores */
+    height: 200px;
+  }
+
+  .botoes {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  footer {
+    padding: 20px;
+  }
+
+  .footer-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .contato, .social-media {
+    width: 100%;
+    text-align: center;
+  }
+
+  p {
+    font-size: 16px;
+  }
+
+  button {
+    font-size: 16px;
+    padding: 10px 20px;
+  }
+
+  h2 {
+    font-size: 1.8em;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  h2 {
+    font-size: 1.6em;
+  }
+
+  p {
+    font-size: 14px;
+  }
+
+  .imagem {
+    width: 150px;
+    height: 150px;
+  }
+
+  .botoes button {
+    font-size: 14px;
+    padding: 8px 15px;
+  }
+
+  footer {
+    padding: 20px 10px;
+  }
 }

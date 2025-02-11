@@ -90,6 +90,7 @@ ul li a:hover {
 
 button {
   background-color: #f08080;
+  color: black;
   padding: 20px 40px;
   border: none;
   border-radius: 5px;

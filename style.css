@@ -141,7 +141,7 @@ h2 {
   .imagem {
     width: 200px;
     height: 200px;
-    order: -1; /* Coloca a imagem antes do parágrafo */
+    order: -1; 
   }
 
   .container div {
@@ -177,7 +177,7 @@ h2 {
   .imagem {
     width: 150px;
     height: 150px;
-    order: -1; /* Coloca a imagem antes do parágrafo */
+    order: -1; 
   }
 
   button {
